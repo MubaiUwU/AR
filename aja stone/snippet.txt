@@ -1,0 +1,14 @@
+<model-viewer src="red_stone_of_aja_from_jojos_bizarre_advneture.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-9.722020808034253m 0.7179436842625029m 2.495678283290709m" data-normal="-0.03364665083731171m 0.9905510966406225m 0.13295272780764034m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Aja Stone</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
